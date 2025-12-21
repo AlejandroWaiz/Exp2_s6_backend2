@@ -31,3 +31,6 @@ spring:
 app:
   s3:
     bucket: cloudsem2
+  jwt:
+    secret: "clave-super-secreta-larga-para-examen-backend-duoc-2024"
+    expirationMinutes: 12
